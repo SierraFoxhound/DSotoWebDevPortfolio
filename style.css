@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
-*{
-   margin: 0;
-   padding: 0; 
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -21,13 +21,14 @@ p {
 
 /*transition*/
 
-a, .btn {
+a,
+.btn {
     transition: all 300ms ease;
 }
 
 /*desktop*/
 
-nav, 
+nav,
 .nav-links {
     display: flex;
     background-color: black;
@@ -61,7 +62,7 @@ a:hover {
 }
 
 .logo {
-   font-size: 2rem; 
+    font-size: 2rem;
 }
 
 .logo:hover {
@@ -87,6 +88,7 @@ a:hover {
     width: 30px;
     cursor: pointer;
 }
+
 .hamburger-icon span {
     width: 100%;
     height: 2px;
@@ -137,13 +139,15 @@ a:hover {
 }
 
 .hamburger-icon span:first-child {
-   transform: none; 
+    transform: none;
 }
+
 .hamburger-icon span:first-child {
-   opacity: 1; 
+    opacity: 1;
 }
+
 .hamburger-icon span:first-child {
-   transform: none; 
+    transform: none;
 }
 
 /*sections*/
@@ -181,20 +185,20 @@ section {
     border-width: 7px;*/
 }
 
-.section__text{
+.section__text {
     align-self: center;
     text-align: center;
 }
 
-.section__text p{
+.section__text p {
     font-weight: 600;
 }
 
-.section__text__p1{
+.section__text__p1 {
     text-align: center;
 }
 
-.section__text__p2{
+.section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -217,6 +221,7 @@ section {
     cursor: pointer;
     height: 2rem;
 }
+
 /*buttons*/
 
 .btn-container {
@@ -269,13 +274,15 @@ section {
 /*about section*/
 
 #about {
-   position: relative; 
+    position: relative;
 }
 
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -333,7 +340,7 @@ section {
 }
 
 .experience-sub-title {
-    color:rgb(85, 85, 85);
+    color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -413,7 +420,7 @@ article .icon {
 }
 
 .contact-info-upper-container a {
- color: black;
+    color: black;
 }
 
 .contact-info-container {
@@ -440,8 +447,8 @@ article .icon {
 
 footer {
     height: 26vh;
-   /* margin: 0 1rem;*/
-   background-color: black;
+    /* margin: 0 1rem;*/
+    background-color: black;
 }
 
 footer p {

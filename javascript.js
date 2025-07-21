@@ -4,3 +4,6 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+/*Gets the calendar year*/
+document.getElementById('year').textContent = new Date().getFullYear();

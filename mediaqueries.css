@@ -4,9 +4,10 @@
       margin-bottom: 6rem;
    }
 
-   .about-containers {
+   /*.about-containers {
       flex-wrap: wrap;
-   }
+   }*/
+
    #contact,
    #projects {
       height: fit-content;
@@ -14,31 +15,43 @@
 
 }
 
+@media screen and (max-width: 1350px) {
+
+   .grid-containers {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+}
+
 
 @media screen and (max-width: 1200px) {
    #desktop-nav {
-    display: none;
-   } 
-   #hamburger-nav{
-    display: flex;
+      display: none;
    }
 
-   #experience, 
+   #hamburger-nav {
+      display: flex;
+   }
+
+   #experience,
    .experience-details-container {
       margin-top: 2rem;
    }
 
-   #profile, 
+   #profile,
    .section-container {
       display: block;
    }
+
    .arrow {
       display: none;
    }
+
    section,
    .section-container {
       height: fit-content;
    }
+
    section {
       margin: 0 5%;
    }
@@ -55,24 +68,37 @@
 
 }
 
+@media screen and (max-width: 750px) {
+
+   .grid-containers {
+      grid-template-columns: 1fr;
+   }
+
+}
+
 @media screen and (max-width: 600px) {
-   #contact, 
+
+   #contact,
    footer {
       height: 40vh;
    }
+
    #profile {
       height: 83vh;
       margin-bottom: 0;
    }
+
    article {
       font-size: 1rem;
    }
+
    footer nav {
       height: fit-content;
       margin-bottom: 2rem;
    }
-   .about-containers, 
-   .contact-info-upper-container, 
+
+   /*.about-containers,*/
+   .contact-info-upper-container,
    .btn-container {
       flex-wrap: wrap;
    }
@@ -80,17 +106,20 @@
    .contact-info-container {
       margin: 0;
    }
+
    .contact-info-container p,
    .nav-links li a {
-    font-size: 1rem;  
+      font-size: 1rem;
    }
 
    .experience-sub-title {
       font-size: 1.25rem;
    }
+
    .logo {
       font-size: 1.5rem;
    }
+
    .nav-links {
       flex-direction: column;
       gap: 0.5rem;
@@ -102,14 +131,17 @@
       height: 46vw;
       justify-content: center;
    }
+
    .section__text__p2 {
       font-size: 1.25rem;
    }
+
    .title {
       font-size: 2rem;
    }
+
    .text-container {
-      text-align: justify;
+      text-align: start;
    }
 
 }

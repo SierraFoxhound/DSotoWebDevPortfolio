@@ -155,9 +155,10 @@ a:hover {
 section {
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 10rem;
+    margin: 0 auto;
     box-sizing: border-box;
     min-height: fit-content;
+    max-width: 1200px;
 }
 
 .section-container {
@@ -293,6 +294,7 @@ section {
 .about-containers,
 .about-details-container {
     display: flex;
+    justify-content: center;
 }
 
 /*#about .section-container .section__pic-container {
